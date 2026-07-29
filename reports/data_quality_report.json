@@ -1,0 +1,99 @@
+{
+  "rows": 1693,
+  "columns": 92,
+  "duplicate_event_ids": 0,
+  "request_date_min": "2021-05-11T00:00:00+00:00",
+  "request_date_max": "2026-07-28T22:08:22.573726+00:00",
+  "training_eligible_rows": 1459,
+  "training_signed_rows": 699,
+  "training_not_signed_rows": 760,
+  "training_signature_rate": 0.4791,
+  "price_proposed": {
+    "missing_count": 98,
+    "minimum": 10.0,
+    "median": 450.0,
+    "mean": 487.0,
+    "maximum": 2600.0
+  },
+  "data_quality": {
+    "negative_lead_time_rows": 19,
+    "nonpositive_proposed_price_rows": 0,
+    "nonpositive_catalog_price_rows": 7,
+    "very_low_price_ratio_rows": 21,
+    "very_high_price_ratio_rows": 19,
+    "address_available_rows": 1625,
+    "unique_venue_keys": 1507
+  },
+  "outcomes": {
+    "REFUSED": 826,
+    "SIGNED": 699,
+    "OPEN": 157,
+    "EXPIRED_NO_SIGNATURE": 11
+  },
+  "statuses": {
+    "Refused": 826,
+    "Presta FINI": 650,
+    "Last Chance": 124,
+    "Acompte OK": 36,
+    "Initied": 23,
+    "Post Presta": 8,
+    "Sended": 5,
+    "Calculed": 4,
+    "Sent Media": 4,
+    "Last Rappel": 4,
+    "Prolongation": 4,
+    "Mail_Refused": 3,
+    "First Rappel": 2
+  },
+  "sources": {
+    "INSTAGRAM": 1385,
+    "SITE INTERNET": 152,
+    "RECOMMENDATION": 109,
+    "RECOMMANDATION": 13,
+    "Weeding Planner": 12,
+    "LEBONCOIN": 12,
+    "FAMILLE": 10
+  },
+  "missing_important_columns": {
+    "request_created_at_utc": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "request_source": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "event_date": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "event_postal_code": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "event_city": {
+      "count": 129,
+      "rate": 0.0762
+    },
+    "event_venue_anonymous_key": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "price_catalog_gross": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "price_proposed": {
+      "count": 98,
+      "rate": 0.0579
+    },
+    "target_signed": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "outcome_class": {
+      "count": 0,
+      "rate": 0.0
+    }
+  }
+}
