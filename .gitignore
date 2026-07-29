@@ -1,0 +1,10 @@
+# Données privées et RGPD
+sql-model.csv
+*.xlsx
+tmp_*.json
+resultat_test*.json
+*.joblib
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
