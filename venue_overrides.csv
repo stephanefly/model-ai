@@ -1,0 +1,2 @@
+match_key,venue_name,venue_type,venue_capacity_seated,venue_capacity_cocktail,venue_price_min,venue_price_max,venue_premium_score,venue_notability_score,source_url,notes
+EXEMPLE_CLE_ANONYME,Domaine exemple,event_venue,180,250,5000,9000,75,80,https://example.com,Remplacer ou supprimer cette ligne
