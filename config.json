@@ -1,0 +1,14 @@
+{
+  "minimum_direct_margin_eur": 150,
+  "minimum_acceptance_probability": 0.6,
+  "price_ending": 90,
+  "price_step_eur": 100,
+  "maximum_price_multiplier": 1.3,
+  "minimum_probability_drop_across_price_range": 0.05,
+  "maximum_unproven_price_multiplier": 1.1,
+  "near_optimal_expected_margin_tolerance": 0.05,
+  "minimum_training_rows": 80,
+  "minimum_rows_per_class": 15,
+  "temporal_validation_fraction": 0.2,
+  "random_seed": 42
+}
