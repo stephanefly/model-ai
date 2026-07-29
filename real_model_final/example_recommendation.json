@@ -1,0 +1,57 @@
+{
+  "recommended_price_eur": 790,
+  "estimated_signature_probability": 0.878,
+  "estimated_direct_margin_eur": 420.0,
+  "estimated_expected_direct_margin_eur": 368.77,
+  "price_catalog_gross_eur": 750.0,
+  "direct_cost_eur": 370.0,
+  "minimum_direct_margin_eur": 150.0,
+  "minimum_acceptance_probability": 0.6,
+  "model_name": "random_forest",
+  "price_model_name": "logistic_regression",
+  "price_signal_reliable": false,
+  "probability_drop_across_tested_range": 0.0192,
+  "requires_human_review": true,
+  "review_reason": "L'historique ne prouve pas encore suffisamment l'effet du prix. La recommandation est limitée à +10 % du prix catalogue.",
+  "cost_details": [
+    {
+      "code": "MANUAL_OVERRIDE",
+      "quantity": 1,
+      "unit_direct_cost_eur": 370.0
+    }
+  ],
+  "tested_candidates": [
+    {
+      "price_eur": 590,
+      "signature_probability": 0.8905,
+      "raw_model_probability": 0.8905,
+      "direct_margin_eur": 220.0,
+      "expected_direct_margin_eur": 195.92,
+      "meets_probability_floor": true
+    },
+    {
+      "price_eur": 690,
+      "signature_probability": 0.8844,
+      "raw_model_probability": 0.8844,
+      "direct_margin_eur": 320.0,
+      "expected_direct_margin_eur": 283.02,
+      "meets_probability_floor": true
+    },
+    {
+      "price_eur": 790,
+      "signature_probability": 0.878,
+      "raw_model_probability": 0.878,
+      "direct_margin_eur": 420.0,
+      "expected_direct_margin_eur": 368.77,
+      "meets_probability_floor": true
+    },
+    {
+      "price_eur": 890,
+      "signature_probability": 0.8713,
+      "raw_model_probability": 0.8713,
+      "direct_margin_eur": 520.0,
+      "expected_direct_margin_eur": 453.08,
+      "meets_probability_floor": true
+    }
+  ]
+}

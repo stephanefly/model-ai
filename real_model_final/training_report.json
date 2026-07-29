@@ -1,0 +1,37 @@
+{
+  "selected_model": "random_forest",
+  "selection_rule": "brier_score puis log_loss sur les 20 % les plus récents; préférence au modèle linéaire si son Brier est à moins de 1 % du meilleur",
+  "training_rows": 1459,
+  "class_counts": {
+    "0": 760,
+    "1": 699
+  },
+  "temporal_split_at": "2025-09-16T17:52:09.009919+00:00",
+  "models": {
+    "logistic_regression": {
+      "brier_score": 0.19893595534850428,
+      "log_loss": 0.5834877477793668,
+      "roc_auc": 0.7351351351351352,
+      "average_precision": 0.7112826356338595,
+      "validation_rows": 292,
+      "validation_signature_rate": 0.3664383561643836,
+      "mean_predicted_probability": 0.4265803670939816
+    },
+    "random_forest": {
+      "brier_score": 0.18042260365398682,
+      "log_loss": 0.5476594523344273,
+      "roc_auc": 0.8208638545087144,
+      "average_precision": 0.7902358860804892,
+      "validation_rows": 292,
+      "validation_signature_rate": 0.3664383561643836,
+      "mean_predicted_probability": 0.4143288833765468
+    }
+  },
+  "naive_baseline": {
+    "constant_probability": 0.5072836332476436,
+    "brier_score": 0.25199867937258824,
+    "log_loss": 0.6971448258478626
+  },
+  "validation_status": "PASS",
+  "important_warning": "Ces métriques mesurent une validation historique. Un test contrôlé sur les nouveaux devis reste nécessaire pour mesurer le gain commercial causal."
+}

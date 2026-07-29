@@ -1,0 +1,21 @@
+kind,code,name,normal_price_eur,direct_cost_eur,floor_price_eur,status,notes
+prestation,PHOTOBOOTH,Photobooth,450,200,350,OK,Essence indiquée à 0 dans le catalogue
+prestation,MIROIRBOOTH,MiroirBooth,550,250,400,INCOMPLETE,Contre-offres à compléter
+prestation,BOOTH_360,360 Booth,500,250,400,INCOMPLETE,Contre-offres à compléter
+prestation,VOGUEBOOTH,VogueBooth,600,250,400,INCOMPLETE,Contre-offres à compléter
+prestation,VOGUE_PRINT,Impressions VogueBooth,150,100,100,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,PHONEBOOTH,PhoneBooth,50,0,0,INCOMPLETE,Coût nul déclaré à confirmer
+prestation,LIVRE_VIDEO,Livre d'or vidéo,200,20,100,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,PANNEAU_FONTAINE,Panneau fontaine,200,100,100,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,FOND_LED,Fond 360 LED,100,50,50,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,MUR_FLORAL,Mur floral,50,0,0,INCOMPLETE,Coût nul déclaré à confirmer
+prestation,PORTE_CLES_100,100 porte-clés,200,100,100,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,MAGNETS_100,100 magnets,200,100,100,INCOMPLETE,Marge plancher inférieure à 150 euros
+prestation,HOLOBOOTH,Holobooth 3D,,,,MISSING,À compléter
+prestation,GLAMBOOTH,Glambooth,,,,MISSING,Pas encore disponible
+pack,PACK_SOUVENIRS,Pack Souvenirs,600,,,MISSING,Coûts à compléter
+pack,PACK_IMMERSION,Pack Immersion 360,700,,,MISSING,Coûts à compléter
+pack,PACK_SIGNATURE,Pack Signature,800,,,MISSING,Coûts à compléter
+pack,PACK_DUO,Pack Miroir + 360,750,370,600,OK,Coût et négociation renseignés
+pack,PACK_DUO_VIP,Pack Duo VIP,850,,,MISSING,Coûts à compléter
+pack,PACK_PRESTIGE,Mariage Prestige,,,,MISSING,À compléter

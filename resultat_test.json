@@ -1,0 +1,89 @@
+{
+  "recommended_price_eur": 590,
+  "estimated_signature_probability": 0.6097,
+  "estimated_direct_margin_eur": 240.0,
+  "estimated_expected_direct_margin_eur": 146.34,
+  "price_catalog_gross_eur": 1050.0,
+  "direct_cost_eur": 350.0,
+  "minimum_direct_margin_eur": 150.0,
+  "minimum_acceptance_probability": 0.6,
+  "model_name": "random_forest",
+  "price_model_name": "logistic_regression",
+  "price_signal_reliable": true,
+  "probability_drop_across_tested_range": 0.2114,
+  "requires_human_review": true,
+  "review_reason": "Validation humaine obligatoire pendant la phase pilote.",
+  "cost_details": [
+    {
+      "code": "MANUAL_OVERRIDE",
+      "quantity": 1,
+      "unit_direct_cost_eur": 350.0
+    }
+  ],
+  "tested_candidates": [
+    {
+      "price_eur": 590,
+      "signature_probability": 0.6097,
+      "raw_model_probability": 0.6097,
+      "direct_margin_eur": 240.0,
+      "expected_direct_margin_eur": 146.34,
+      "meets_probability_floor": true
+    },
+    {
+      "price_eur": 690,
+      "signature_probability": 0.5846,
+      "raw_model_probability": 0.5846,
+      "direct_margin_eur": 340.0,
+      "expected_direct_margin_eur": 198.77,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 790,
+      "signature_probability": 0.5569,
+      "raw_model_probability": 0.5569,
+      "direct_margin_eur": 440.0,
+      "expected_direct_margin_eur": 245.04,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 890,
+      "signature_probability": 0.5269,
+      "raw_model_probability": 0.5269,
+      "direct_margin_eur": 540.0,
+      "expected_direct_margin_eur": 284.53,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 990,
+      "signature_probability": 0.4952,
+      "raw_model_probability": 0.4952,
+      "direct_margin_eur": 640.0,
+      "expected_direct_margin_eur": 316.92,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 1090,
+      "signature_probability": 0.4626,
+      "raw_model_probability": 0.4626,
+      "direct_margin_eur": 740.0,
+      "expected_direct_margin_eur": 342.29,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 1190,
+      "signature_probability": 0.4299,
+      "raw_model_probability": 0.4299,
+      "direct_margin_eur": 840.0,
+      "expected_direct_margin_eur": 361.15,
+      "meets_probability_floor": false
+    },
+    {
+      "price_eur": 1290,
+      "signature_probability": 0.3983,
+      "raw_model_probability": 0.3983,
+      "direct_margin_eur": 940.0,
+      "expected_direct_margin_eur": 374.42,
+      "meets_probability_floor": false
+    }
+  ]
+}
