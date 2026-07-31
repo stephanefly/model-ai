@@ -91,3 +91,15 @@ python -m unittest tests/test_feature_engineering.py
 ```
 
 Après modification des critères, il faut réentraîner le modèle et comparer le Brier score, la log-loss et les importances de variables avec la version précédente. Un critère ajouté n'est conservé que s'il améliore la validation chronologique ou apporte un garde-fou métier indispensable.
+
+## Réentraînement obligatoire
+
+Les nouveaux critères ne modifient pas un fichier `signature_model.joblib` déjà entraîné. Après fusion de la branche, il faut relancer :
+
+```bash
+python train_model.py \
+  --data data/historique_devis_enrichi.csv \
+  --output-dir models
+```
+
+Puis utiliser le nouveau fichier `models/signature_model.joblib` pour les recommandations. Les critères opérationnels absents du CSV historique seront ignorés jusqu'à ce que l'export soit enrichi.
