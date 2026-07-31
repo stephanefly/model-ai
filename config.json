@@ -1,6 +1,7 @@
 {
   "minimum_direct_margin_eur": 150,
   "minimum_acceptance_probability": 0.6,
+  "fill_date_horizon_days": 45,
   "price_ending": 90,
   "price_step_eur": 100,
   "maximum_price_multiplier": 1.3,
